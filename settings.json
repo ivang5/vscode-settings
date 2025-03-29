@@ -17,7 +17,6 @@
   "vim.leader": "<Space>",
   "vim.hlsearch": true,
   "vim.normalModeKeyBindingsNonRecursive": [
-    // { "before": ["<leader>", "p"], "after": ["o", "<esc>", "P"] },
     { "before": ["leader", "y"], "after": ["\"", "+", "y"] },
     { "before": ["leader", "Y"], "after": ["g", "g", "\"", "+", "y", "G"] },
 
