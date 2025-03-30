@@ -23,7 +23,7 @@
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+shift+n",
+    "key": "ctrl+n",
     "command": "workbench.action.terminal.new",
     "when": "terminalFocus"
   },
