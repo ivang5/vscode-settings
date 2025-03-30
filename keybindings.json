@@ -1,5 +1,11 @@
 [
   {
+    "key": "ctrl+l",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+  },
+
+  {
     "key": "ctrl+alt+b",
     "command": "editor.emmet.action.balanceOut"
   },
