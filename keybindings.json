@@ -9,7 +9,7 @@
   },
 
   {
-    "key": "ctrl+shift+j",
+    "key": "ctrl+shift+h",
     "command": "workbench.action.togglePanel"
   },
   {
