@@ -70,6 +70,45 @@
   },
 
   {
+    "key": "ctrl+k",
+    "command": "runCommands",
+    "when": "workbench.scm.active && !inputFocus",
+    "args": {
+      "commands": ["git.stage", "workbench.scm.action.focusNextResourceGroup"]
+    }
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "runCommands",
+    "when": "workbench.scm.active",
+    "args": {
+      "commands": [
+        "git.stageAll",
+        "workbench.scm.action.focusNextResourceGroup"
+      ]
+    }
+  },
+  {
+    "key": "ctrl+j",
+    "command": "runCommands",
+    "when": "workbench.scm.active && !inputFocus",
+    "args": {
+      "commands": ["git.unstage", "workbench.scm.action.focusNextResourceGroup"]
+    }
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "runCommands",
+    "when": "workbench.scm.active",
+    "args": {
+      "commands": [
+        "git.unstageAll",
+        "workbench.scm.action.focusNextResourceGroup"
+      ]
+    }
+  },
+
+  {
     "key": "ctrl+shift+5",
     "command": "editor.emmet.action.matchTag"
   },
