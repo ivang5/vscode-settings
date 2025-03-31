@@ -115,7 +115,7 @@
   },
 
   {
-    "key": "ctrl+shift+5",
+    "key": "ctrl+shift+,",
     "command": "editor.emmet.action.matchTag"
   }
 ]
