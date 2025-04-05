@@ -87,7 +87,7 @@
   ],
   "vim.insertModeKeyBindingsNonRecursive": [
     { "before": ["j", "k"], "after": ["<Esc>"] },
-    { "before": ["j", "j"], "after": ["<Esc>", "w", "a"] }
+    { "before": ["j", "j"], "after": ["<Esc>", "l", "a"] }
   ],
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
